@@ -1,0 +1,66 @@
+{
+    "aliquot": 10, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "D:10 Impact sphere", 
+    "commit": "40ac953afd5ce391ab1b247c438fd0b9d2fd23ee", 
+    "conditionals": null, 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "felix_diode.py", 
+    "identifier": "65097", 
+    "increment": 6, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-284", 
+    "irradiation_level": "D", 
+    "irradiation_position": 10, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar37": {
+            "detector": "L1"
+        }, 
+        "Ar38": {
+            "detector": "AX"
+        }, 
+        "Ar39": {
+            "detector": "H1"
+        }, 
+        "Ar40": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Felix", 
+    "material": "ImpactSherules", 
+    "measurement": "felix_analysis400_120.py", 
+    "project": "IR953", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Ir953", 
+    "sample": "Gorgonilla", 
+    "spec_sha": "f5bf3da4c0acf4a6eb7e30b93900b20ca090f3ba", 
+    "timestamp": "2016-08-22T12:00:56.478749", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "788500f4-b029-4c52-b999-339c5d6df7ce"
+}
